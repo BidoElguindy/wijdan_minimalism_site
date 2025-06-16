@@ -157,9 +157,10 @@
 
     .team-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-      gap: 2.5rem;
-      text-align: center;
+      grid-template-columns: repeat(4, 1fr); /* 4 columns */
+      gap: 20px; /* spacing between members */
+      justify-items: center;
+      margin-top: 2rem;
     }
 
     .team-member img {
